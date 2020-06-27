@@ -1,0 +1,34 @@
+{
+  "extends": [
+    "tslint:latest"
+  ],
+  "linterOptions": {
+    "exclude": [
+        "**/*.json"
+    ]
+  },
+  "jsRules": {},
+  "rules": {
+    "no-console": false,
+    "no-namespace": false,
+    "only-arrow-functions": false,
+    "no-var-requires": false,
+    "trailing-comma": false,
+    "quotemark": {
+      "options": [
+          "single",
+          "avoid-escape"
+      ]
+    },
+    "space-before-function-paren": [
+      true,
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "ordered-imports": false
+  },
+  "rulesDirectory": []
+}
